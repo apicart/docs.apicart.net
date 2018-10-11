@@ -1,0 +1,23 @@
+language: python
+
+install:
+    - pip install mkdocs
+    - pip install mkdocs-material
+    - pip install pygments
+    - pip install pymdown-extensions
+
+script:
+    - mkdocs build --verbose --clean --strict
+
+deploy:
+    provider: pages
+    fqdn: docs.apicart.net
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    local_dir: site
+    on:
+        branch: master
+
+notifications:
+    email:
+        on_success: never
