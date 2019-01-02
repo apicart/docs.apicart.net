@@ -1,23 +1,30 @@
-language: python
-
+language: node_js
+node_js:
+    - "10"
+env:
+    - CXX=g++-4.8
+addons:
+    apt:
+        sources:
+            - ubuntu-toolchain-r-test
+        packages:
+            - g++-4.8
 install:
-    - pip install mkdocs
-    - pip install mkdocs-material
-    - pip install pygments
-    - pip install pymdown-extensions
-
+    - npm install -g vuepress
 script:
-    - mkdocs build --verbose --clean --strict
-
+    - npm run docs:build
+cache:
+    directories:
+        - "node_modules"
+notifications:
+    email: false
 deploy:
     provider: pages
-    fqdn: docs.apicart.net
-    skip_cleanup: true
-    github_token: $GITHUB_TOKEN
-    local_dir: site
+    skip-cleanup: true
+    local_dir: docs/.vuepress/dist
+    github-token: $GITHUB_TOKEN
+    repo: apicart/docs.apicart.net
+    keep-history: true
+    target-branch: gh-pages
     on:
         branch: master
-
-notifications:
-    email:
-        on_success: never
