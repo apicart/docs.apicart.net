@@ -13,7 +13,7 @@ install:
     - npm install -g vuepress
 script:
     - npm run docs:build
-    - echo 'docs.apicart.net' > CNAME
+    - echo 'docs.apicart.net' > docs/.vuepress/dist/CNAME
 cache:
     directories:
         - "node_modules"
