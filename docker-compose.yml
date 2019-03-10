@@ -1,0 +1,10 @@
+version: "3"
+services:
+    server:
+        container_name: apicart-docs-builder
+        build: .
+        working_dir: /usr/share/nginx/html
+        volumes:
+            - ./:/usr/share/nginx/html
+        ports:
+            - 80:8080
