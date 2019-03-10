@@ -47,7 +47,7 @@ Public and private keys differ in API access rights.
 - **Private key**: this key allows you to send some API queries that you can not send with a public key for security reasons. It can be used for example on the backend part of the application. Do not publish this key anywhere!!
 
 ## Getting Started With Components!
-Apicart provides prepared [components](/components.html) like [buttons](/components/v1/cart.html#cart-quantity-manipulator) for adding / removing products from cart, [cart dropdown](/components/v1/cart.html#cart-dropdown) or [cart overview](/components/v1/cart.html#cart-overview).
+Apicart provides prepared components like [buttons](/components/v1/cart.html#cart-quantity-manipulator) for adding / removing products from cart, [cart dropdown](/components/v1/cart.html#cart-dropdown) or [cart overview](/components/v1/cart.html#cart-overview).
 If you want to use everything as in example below, just use the word `all`.
 
 1. First of all, we need to load all the components and tools we need for this example. Just add following line into your page.
