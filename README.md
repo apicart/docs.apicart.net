@@ -1,5 +1,5 @@
 <h1 align="center">
-  📝 Docs.apicart.net
+  📝 Docs.apicart.net (beta)
   <br>
   <a href="https://travis-ci.org/apicart/docs.apicart.net">
       <img alt="" src="https://travis-ci.org/apicart/docs.apicart.net.svg?branch=master">
