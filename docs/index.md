@@ -1,4 +1,4 @@
-# Getting started
+# Getting Started
 This quick guide will guide you through registration, installation and configuration and will show you how to begin with the components! Let's get started!
 
 ::: warning Note
@@ -41,7 +41,7 @@ because you will use in the following steps.
 </head>
 ```
 
-### API keys
+### API Keys
 Public and private keys differ in API access rights.
 - **Public key**: this key is intended for a publicly accessible places like a web site.
 - **Private key**: this key allows you to send some API queries that you can not send with a public key for security reasons. It can be used for example on the backend part of the application. Do not publish this key anywhere!!
