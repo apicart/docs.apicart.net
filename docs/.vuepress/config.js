@@ -25,7 +25,6 @@ module.exports = {
 				editLinkText: 'Edit this page on GitHub.',
 				nav: [
 					{ text: 'Home', link: '/' },
-					{ text: 'Github', link: 'https://github.com/apicart/docs.apicart.net' },
 				],
 				sidebar: {
 					'/': [
@@ -75,8 +74,7 @@ module.exports = {
 			'/cs/': {
 				editLinkText: 'Upravit tuto stránku na GitHubu.',
 				nav: [
-					{ text: 'Domů', link: '/cs/' },
-					{ text: 'Github', link: 'https://github.com/apicart/docs.apicart.net' },
+					{ text: 'Domů', link: '/cs/' }
 				],
 				sidebar: {
 					'/cs/': [
