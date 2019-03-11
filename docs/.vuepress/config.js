@@ -1,4 +1,5 @@
 module.exports = {
+	ga: 'UA-127787354-4',
 	locales: {
 		'/': {
 			lang: 'English',
