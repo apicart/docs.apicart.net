@@ -18,6 +18,7 @@ module.exports = {
 		logo: '/img/logo.png',
 		displayAllHeaders: true,
 		repo: 'apicart/docs.apicart.net',
+		docsDir: 'docs',
 		editLinks: true,
 		locales: {
 			'/': {
