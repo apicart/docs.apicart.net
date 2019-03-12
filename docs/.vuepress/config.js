@@ -51,21 +51,29 @@ module.exports = {
 							]
 						},
 						{
-							title: 'Components 1.0',
+							title: 'Web Components 1.0',
 							collapsable: false,
 							children: [
-								'components/v1/customer.md',
-								'components/v1/cart.md',
-								'components/v1/order.md'
+								'components/web/v1/components-list.md',
+								'components/web/v1/customer.md',
+								'components/web/v1/cart.md',
+								'components/web/v1/order.md'
 							]
 						},
 						{
-							title: 'Other',
+							title: 'Web Components - others',
 							collapsable: false,
 							children: [
 								'event-dispatcher.md',
 								'utils.md',
 								'templating-engine.md'
+							]
+						},
+						{
+							title: 'SDK',
+							collapsable: false,
+							children: [
+								'sdk/php/php.md',
 							]
 						}
 					]
@@ -101,21 +109,29 @@ module.exports = {
 							]
 						},
 						{
-							title: 'Komponenty 1.0',
+							title: 'Webové komponenty 1.0',
 							collapsable: false,
 							children: [
-								'komponenty/v1/zakaznik.md',
-								'komponenty/v1/kosik.md',
-								'komponenty/v1/objednavka.md'
+								'komponenty/web/v1/seznam-komponent.md',
+								'komponenty/web/v1/kosik.md',
+								'komponenty/web/v1/objednavka.md',
+								'komponenty/web/v1/zakaznik.md'
 							]
 						},
 						{
-							title: 'Ostatní',
+							title: 'Webové komponenty - ostatní',
 							collapsable: false,
 							children: [
 								'event-dispatcher.md',
-								'utility',
+						 		'utility',
 								'sablonovaci-system.md'
+							]
+						},
+						{
+							title: 'SDK',
+							collapsable: false,
+							children: [
+								'sdk/php/php.md',
 							]
 						}
 					]

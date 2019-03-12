@@ -81,7 +81,7 @@ These events are triggered for example when clicking on an element or when some 
 
 ### Event Dispatcher
 These events are triggered via [Event Dispatcher](https://github.com/apicart/js-utils#event-dispatcher-utilseventdispatcher).
-Learn more in the [documentation](/cs/event-dispatcher.html).
+Learn more in the [documentation](/event-dispatcher.html).
 
 **Event name => passed, parameters**
 - **HASH_CHANGED => hash**: Triggered when the customer hash changes (for example after login).

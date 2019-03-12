@@ -122,7 +122,7 @@ These events are triggered for example when clicking on an element or when some 
 
 ### Event Dispatcher
 These events are triggered via [Event Dispatcher](https://github.com/apicart/js-utils#event-dispatcher-utilseventdispatcher).
-Learn more in the [documentation](/cs/event-dispatcher.html).
+Learn more in the [documentation](/event-dispatcher.html).
 
 **Event name => passed, parameters**
 - **FINISHED => isRequestOk, orderHash**: Triggered when the cart is finished.
@@ -144,7 +144,7 @@ Learn more in the [documentation](/cs/event-dispatcher.html).
 ```JS
 cartDropdown.render({
     // Target element, into which the cart dropdown will be rendered.
-    el: <objekt Element|id elementu>,
+    el: <object Element|element id>,
 
     // If true, the cart will be placed to the left, otherwise to the right, default value is false
     leftPosition: <bool>,
