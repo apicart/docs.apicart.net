@@ -24,9 +24,10 @@ Po vyplnění formuláře vám bude odeslán potvrzovací e-mail.
 ## Instalace
 1. V [administraci](https://admin.apicart.dev/cs) najdete v pravém horním rohu kolečko s vaší profilovou fotkou.
 Po kliknutí se vám zobrazí menu. V tomto menu zvolte **instalace**.
-2. Na stránce instalace najdete 2 klíče pro přístup do API a kód pro vložení do stránky.
-3. Kód pro vložení do stránky si zkopírujte a vložte mezi tagy
+2. Na stránce instalace najdete 2 klíče pro přístup do API
+3. Nahraďte `<veřejný API klíč>` v kódu níže vaším veřejným API klíčem
 `<head></head>` (nebo těsně za skript pro načtení komponent z CDN, viz níže). Výsledný kód bude pobdobný kódu uvedenému níže.
+
 ```HTML
 <head>
     ...
@@ -34,7 +35,7 @@ Po kliknutí se vám zobrazí menu. V tomto menu zvolte **instalace**.
         window.apicartConfig = window.apicartConfig || [];
         function apicartConfigure(config){apicartConfig.push(config)}
         apicartConfigure({
-            token: "1234567890",
+            token: "<veřejný api klíč>",
         });
     </script>
     ...

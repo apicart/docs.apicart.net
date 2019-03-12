@@ -23,8 +23,8 @@ because you will use in the following steps.
 
 ## Installation
 1. In the [administration](https://admin.apicart.dev/), in the top right corner, there is a circle with your profile photo. Click on it and you will see a dropdown menu. In this menu, choose **installation**.
-2. On the installation page, there are 2 API access keys and a code you can insert into your website.
-3. Copy and paste the code between the tags
+2. On the installation page, there are 2 API access keys.
+3. Replace the `<public api key` in the code below by your public API key
 `<head></head>` (or immediately behind the script that loads the components from the CDN, see below). The result will looks like this (the three dots is the previous content):
 
 ```HTML
@@ -34,7 +34,7 @@ because you will use in the following steps.
         window.apicartConfig = window.apicartConfig || [];
         function apicartConfigure(config){apicartConfig.push(config)}
         apicartConfigure({
-            token: "1234567890",
+            token: "<public api key>",
         });
     </script>
     ...
