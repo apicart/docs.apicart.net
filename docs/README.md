@@ -6,7 +6,7 @@ The whole example is using the **testing environment**. There is **no billing in
 :::
 
 ## Registration
-1. First of all, you must [sign-up](https://admin.apicart.dev/security/registration) in order to use our services. After submitting the form you will receive a confirmation e-mail.
+1. First of all, you must [sign-up](https://admin.apicart.dev/en/security/registration) in order to use our services. After submitting the form you will receive a confirmation e-mail.
 2. In the registration email, click on the `Activate my account` button. You will be redirected on the registration page. Setup your password and sign in to your account.
 
 ## Configuration
