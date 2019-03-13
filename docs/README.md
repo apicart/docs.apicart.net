@@ -120,7 +120,7 @@ the product price in the cart dropdown will immediately change and you will see 
 
 ## Switching To The Production Environment
 
-1. If you want activate the production environment, you need to register on the [https://admin.apicart.net](https://admin.apicart.net)
+1. If you want activate the production environment, you need to register on the [https://admin.apicart.net](https://admin.apicart.net/en/security/registration)
 or click on the `Live environment` button in the administration (it will create the production environment automatically)
 2. Sign in to your profile on production environment and fill in the billing info
 3. Replace the testing API keys for the production API keys in the configuration(`apicartConfigure`) on your page and its DONE!
