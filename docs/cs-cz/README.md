@@ -6,7 +6,7 @@ Registrace je pro účel ukázky ukázaná na **testovacím prostředí**. Zde *
 :::
 
 ## Registrace
-1. Pro využívání našich služeb se nejdříve musíte [zaregistrovat](https://admin.apicart.dev/cs/security/registration).
+1. Pro využívání našich služeb se nejdříve musíte [zaregistrovat](https://admin.apicart.dev/cs-cz/security/registration).
 Po vyplnění formuláře vám bude odeslán potvrzovací e-mail.
 2. V registračním e-mailu klikněte na tlačítko `Aktivovat můj účet`. Budete přesměrováni na stránku pro zadání hesla. Zadejte heslo, potrďte formulář a přihlašte se ke svému účtu. Tím máte registraci hotovou!
 
@@ -48,7 +48,7 @@ Veřejný a privátní klíč se liší v právech pro přístup k API.
 - **Privátní klíč**: umožňuje posílat některé dotazy na API, které s veřejným klíčem z důvodu bezpečnosti nelze. Je určen například pro backendové částí aplikace. Tento klíč nikde nezveřejňujte!!
 
 ## Začínáme s komponentami!
-Apicart obsahuje předpřipravené komponenty jako [tlačítka](/cs/komponenty/web/v1/kosik.html#tlacitko-pro-pridani-produktu) pro přidání/odebrání produktů z košíku, [dropdown košíku](/cs/komponenty/web/v1/kosik.html#kosikovy-dropdown) nebo třeba [přehled košíku](/cs/komponenty/web/v1/kosik.html#prehled-kosiku).
+Apicart obsahuje předpřipravené komponenty jako [tlačítka](/cs-cz/komponenty/web/v1/kosik.html#tlacitko-pro-pridani-produktu) pro přidání/odebrání produktů z košíku, [dropdown košíku](/cs-cz/komponenty/web/v1/kosik.html#kosikovy-dropdown) nebo třeba [přehled košíku](/cs-cz/komponenty/web/v1/kosik.html#prehled-kosiku).
 Pokud chcete použít vše, stejně jako pro zjednodušení příkladu použijeme nyní, stačí použít slovo `all`.
 
 1. Před tím než začneme něco vytvářet, je potřeba si do stránky vložit skript, který nám poskytne potřebné nástroje.
@@ -65,7 +65,7 @@ Pokud chcete použít vše, stejně jako pro zjednodušení příkladu použijem
 ```
 
 3. Tlačítko je potřeba vygenerovat. Do konfiguračního skriptu tedy přidáme jeho inicializaci (tři tečky znamenají předchozí obsah).
-Na detailní nastavení se můžete podívat [sem](/cs/komponenty/web/v1/kosik.html#tlacitko-pro-pridani-produktu).
+Na detailní nastavení se můžete podívat [sem](/cs-cz/komponenty/web/v1/kosik.html#tlacitko-pro-pridani-produktu).
 ```HTML
 <script>
     apicartConfigure({
@@ -93,7 +93,7 @@ Na detailní nastavení se můžete podívat [sem](/cs/komponenty/web/v1/kosik.h
 
 5. Stejně jako v předešlém příkladu je potřeba dropdown inicializovat.
 Do funkce `init` tedy přidáme inicializaci košíkového dropdownu.
-Vysvětlivky k nastavení jsou sepsány v samostatné [sekci](/cs/komponenty/web/v1/kosik.html#prehled-kosiku).
+Vysvětlivky k nastavení jsou sepsány v samostatné [sekci](/cs-cz/komponenty/web/v1/kosik.html#prehled-kosiku).
 ```HTML
 <script>
     apicartConfigure({

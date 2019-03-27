@@ -82,7 +82,7 @@ Tyto události se spouští např. při kliknutí či změně elementu.
 
 ### Event Dispatcher
 Tyto události jsou spouštěny pomocí [Event Dispatcheru](https://github.com/apicart/js-utils#event-dispatcher-utilseventdispatcher) a je na ně možné navazovat funkcionalitu.
-Více se dozvíte v [dokumentaci](/cs/event-dispatcher.html).
+Více se dozvíte v [dokumentaci](/cs-cz/event-dispatcher.html).
 
 **Název události => předané, parametry**
 - **HASH_CHANGED => hash**: Spuštěna při změně zákazníkova hashe (například po příhlášení).

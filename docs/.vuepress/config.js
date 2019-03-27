@@ -7,7 +7,7 @@ module.exports = {
 			title: 'Apicart',
 			description: 'Apicart products and services documentation.'
 		},
-		'/cs/': {
+		'/cs-cz/': {
 			lang: 'Čeština',
 			selectText: 'Jazyky',
 			title: 'Apicart',
@@ -79,18 +79,18 @@ module.exports = {
 					]
 				}
 			},
-			'/cs/': {
+			'/cs-cz/': {
 				editLinkText: 'Upravit tuto stránku na GitHubu.',
 				nav: [
-					{ text: 'Domů', link: '/cs/' }
+					{ text: 'Domů', link: '/cs-cz/' }
 				],
 				sidebar: {
-					'/cs/': [
+					'/cs-cz/': [
 						{
 						 	title: 'Úvod',
 							collapsable: false,
 							children: [
-								'/cs/'
+								'/cs-cz/'
 							]
 						},
 						{
