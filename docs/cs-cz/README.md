@@ -1,21 +1,21 @@
 # Začínáme
-Tento rychlý průvodce vás provede registrací a instalací až první práci s komponentami! Pojďme na to!
+Tento rychlý průvodce vás provede registrací a instalací až k první práci s komponentami! Pojďme na to!
 
 ::: warning Poznámka
-Registrace je pro účel ukázky ukázaná na **testovacím prostředí**. Zde **nejsou potřeba fakturační údaje**, jelikož **testování poskytujeme zdarma**. Pro přechod na produkční prostředí se podívejte na do sekce **[přechod na placenou verzi](#prechod-na-placenou-verzi)**.
+Registrace je pro účel ukázky ukázána na **testovacím prostředí**. Zde **nejsou potřeba fakturační údaje**, jelikož **testování poskytujeme zdarma**. Pro přechod na produkční prostředí se podívejte do sekce **[přechod na placenou verzi](#prechod-na-placenou-verzi)**.
 :::
 
 ## Registrace
 1. Pro využívání našich služeb se nejdříve musíte [zaregistrovat](https://admin.apicart.dev/cs-cz/security/registration).
 Po vyplnění formuláře vám bude odeslán potvrzovací e-mail.
-2. V registračním e-mailu klikněte na tlačítko `Aktivovat můj účet`. Budete přesměrováni na stránku pro zadání hesla. Zadejte heslo, potrďte formulář a přihlašte se ke svému účtu. Tím máte registraci hotovou!
+2. V registračním e-mailu klikněte na tlačítko `Aktivovat můj účet`. Budete přesměrováni na stránku pro zadání hesla. Zadejte heslo, potvrďte formulář a přihlaste se ke svému účtu. Tím máte registraci hotovou!
 
 ## Konfigurace
-1. Před tím než začneme pracovat s komponentami, je potřeba do e-shopu vložit nějaké produkty. Klikněte na `Přehled produktů` v administraci v levém menu.
+1. Předtím, než začneme pracovat s komponentami, je potřeba do e-shopu vložit nějaké produkty. Klikněte na `Přehled produktů` v administraci v levém menu.
 2. Na stránce `Přehled produktů` je v pravém horním rohu bílé kolečko. Klikněte na něj a zvolte `Přidat produkt`.
-3. Nyní, v horní části formuláře by mělo být upozornění ohledně nepovoleného zdroje dat a vygenerovaná url. Vygenerovanou url si zkopírujte a klikněte na odkaz vedle ni `povolených zdrojů dat`.
-4. Budete přesměrování na stránku `Správa domény`. Klikněte na záložku `Zdroje dat` v horním menu, zkopírovanou adresu vložte do posledního volného inputu na této záložce a klikněte na uložit.
-5. Vraťte se zpět stránku `Přidat nový produkt`
+3. Nyní, v horní části formuláře, by mělo být upozornění ohledně nepovoleného zdroje dat a vygenerovaná url. Vygenerovanou url si zkopírujte a klikněte na odkaz vedle ní `povolených zdrojů dat`.
+4. Budete přesměrováni na stránku `Správa domény`. Klikněte na záložku `Zdroje dat` v horním menu, zkopírovanou adresu vložte do posledního volného inputu na této záložce a klikněte na uložit.
+5. Vraťte se zpět na stránku `Přidat nový produkt`
 
 ## Vytvoření produktů
 1. Na stránce s produktovým formulářem vložte `1` do pole unikátní identifikátor, `Product 1` jako jméno, cenu nastavte na 1, daň například 21 a klikněte na uložit.
@@ -24,9 +24,9 @@ Po vyplnění formuláře vám bude odeslán potvrzovací e-mail.
 ## Instalace
 1. V [administraci](https://admin.apicart.dev/cs) najdete v pravém horním rohu kolečko s vaší profilovou fotkou.
 Po kliknutí se vám zobrazí menu. V tomto menu zvolte **instalace**.
-2. Na stránce instalace najdete 2 klíče pro přístup do API
+2. Na stránce instalace najdete 2 klíče pro přístup do API.
 3. Nahraďte `<veřejný API klíč>` v kódu níže vaším veřejným API klíčem
-`<head></head>` (nebo těsně za skript pro načtení komponent z CDN, viz níže). Výsledný kód bude pobdobný kódu uvedenému níže.
+`<head></head>` (nebo těsně za skript pro načtení komponent z CDN, viz níže). Výsledný kód bude podobný kódu uvedenému níže.
 
 ```HTML
 <head>
@@ -44,19 +44,19 @@ Po kliknutí se vám zobrazí menu. V tomto menu zvolte **instalace**.
 
 ### API klíče
 Veřejný a privátní klíč se liší v právech pro přístup k API.
-- **Veřejný klíč**: je určen pro vložení např. na webovou stránku a taková místa, kde je věřejně přístupný.
-- **Privátní klíč**: umožňuje posílat některé dotazy na API, které s veřejným klíčem z důvodu bezpečnosti nelze. Je určen například pro backendové částí aplikace. Tento klíč nikde nezveřejňujte!!
+- **Veřejný klíč**: je určen pro vložení, např. na webovou stránku a taková místa, kde je veřejně přístupný.
+- **Privátní klíč**: umožňuje posílat některé dotazy na API, které s veřejným klíčem z důvodu bezpečnosti nelze. Je určen například pro backendové částí aplikace. TENTO KLÍČ NIKDE NEZVEŘEJŇUJTE!!
 
 ## Začínáme s komponentami!
 Apicart obsahuje předpřipravené komponenty jako [tlačítka](/cs-cz/komponenty/web/v1/kosik.html#tlacitko-pro-pridani-produktu) pro přidání/odebrání produktů z košíku, [dropdown košíku](/cs-cz/komponenty/web/v1/kosik.html#kosikovy-dropdown) nebo třeba [přehled košíku](/cs-cz/komponenty/web/v1/kosik.html#prehled-kosiku).
 Pokud chcete použít vše, stejně jako pro zjednodušení příkladu použijeme nyní, stačí použít slovo `all`.
 
-1. Před tím než začneme něco vytvářet, je potřeba si do stránky vložit skript, který nám poskytne potřebné nástroje.
+1. Předtím než začneme něco vytvářet, je potřeba si do stránky vložit skript, který nám poskytne potřebné nástroje.
 ```HTML
 <script src="https://cdn.apicart.dev/v1/?components=all"></script>
 ```
 
-2. Skripty máme načtené. Můžeme začít! Každý e-shop má tlačítkou koupit. Tak si ho přidáme. Vytvoříme element, do kterého se vloží tlačítko koupit.
+2. Skripty máme načtené. Můžeme začít! Každý e-shop má tlačítko koupit. Tak si ho přidáme. Vytvoříme element, do kterého se vloží tlačítko koupit.
 ```HTML
 <body>
     ...
@@ -122,7 +122,7 @@ se okamžitě změní cena produktu v košíku a uvidíte i záznam ve vašem [a
 
 ## Přechod na placenou verzi
 
-1. Pokud chcete aktivovat produkční prostředí, musíte se zaregistrovat na [https://admin.apicart.net](https://admin.apicart.net) nebo
-můžete v administraci v levém panelu kliknout na tlačítko `Produční prostředí` (produkční prostředí se pak vytvoří automaticky)
-2. Přihlašte se a zadejte fakturační údaje
+1. Pokud chcete aktivovat produkční prostředí, musíte se zaregistrovat na [https://admin.apicart.net](https://admin.apicart.net), nebo
+můžete v administraci v levém panelu kliknout na tlačítko `Produční prostředí` (produkční prostředí se pak vytvoří automaticky).
+2. Přihlaste se a zadejte fakturační údaje.
 3. Vyměňte testovací API klíče za produkční a máte hotovo!
