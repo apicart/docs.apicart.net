@@ -22,7 +22,7 @@ Po vyplnění formuláře vám bude odeslán potvrzovací e-mail.
 2. Po uložení byste měli být na stránce vytvořené položky. Na konci bílého bloku je položka `Zdroj` a vygenerovaná url. Tuto url si někam uložte, budete ji potřebovat v následujících krocích.
 
 ## Instalace
-1. V [administraci](https://admin.apicart.dev/cs) najdete v pravém horním rohu kolečko s vaší profilovou fotkou.
+1. V [administraci](https://admin.apicart.dev/cs-cz/) najdete v pravém horním rohu kolečko s vaší profilovou fotkou.
 Po kliknutí se vám zobrazí menu. V tomto menu zvolte **instalace**.
 2. Na stránce instalace najdete 2 klíče pro přístup do API.
 3. Nahraďte `<veřejný API klíč>` v kódu níže vaším veřejným API klíčem
