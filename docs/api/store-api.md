@@ -6,6 +6,25 @@ Apicart Store API listen at [https://store-api.apicart.net](https://store-api.ap
 Full GraphQL schema for Store API is available [here](https://docs.store-api.apicart.net).
 :::
 
+
+## Item files
+
+Mutation handling items in cart (e.g. `addCartItems` or `removeCartItems`) getting data from item files. These files describe the item and define, for example, its name or price.
+
+These files ensure the security and validity of the data sent to the API. A potential attacker cannot add a item to a cart at a price other than that listed in the item file.
+
+Item files are created automatically through the "Item" module in Apicart administration and their URLs are always on the item detail. You can also create these files yourself if you have the option to post them to some publicly available URL.
+
+Currently supported foramt is JSON. You can view content of [valid item file here](https://sandbox.apicart.net/data/product/0001.json) (this file is actually used on https://sandbox.apicart.net/).
+
+In order to add a item to the cart it must contain four mandatory information: 
+
+ - `id` (a unique product identifier e.g. `IT0001`)
+ - `name` (item name e.g. `Children's handmade knitted scarf`)
+ - `price` (item price e.g. `12`)
+ - `taxRate` (tax rate e.g `22`)
+
+
 ## Available queries
 
 ### Test examples

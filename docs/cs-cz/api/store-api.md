@@ -6,6 +6,24 @@ Apicart Store API poslouchá na [https://store-api.apicart.net](https://store-ap
 Celé GraphQL schéma pro Store API je dostupné [zde](https://docs.store-api.apicart.net).
 :::
 
+## Produktové soubory
+
+Mutace manipulující s produkty v košíku (např. `addCartItems` nebo `removeCartItems`) získávají data z tzv. produktových souborů. Tyto soubory popisují daný produkt a definují např. jeho název nebo cenu.
+
+Díky těmto souborům je zajištěna bezpečnost a validita dat zasílaných na API. Potencionální útočník si nemůže do košíku přidat produkt za jinou cenu než za tu, která je uvedena v produktovém souboru.
+
+Produktové soubory se Vám vytváří automaticky přes modul "Produkty" v Apicart administraci a jejich URL najdete vždy na detailu produktu. Zároveň si tyto soubory můžete vytvořit sami pokud máte možnost je vystavit na některé veřejně dostupné URL adrese.
+
+V současné době je podporovaný formát JSON. Obsah validního produktového souboru si můžete [prohlédnout zde](https://sandbox.apicart.net/data/product/0001.json) (tento soubor se reálně používá na https://sandbox.apicart.net/).
+
+Aby bylo možné přidat produkt do košíku musí obsahovat čtyři povinné informace: 
+
+ - `id` (unikátní identifikátor produktu např. `PR0001`)
+ - `name` (název produktu např. `Dětská ručně pletená šála`)
+ - `price` (cena produktu např. `899`)
+ - `taxRate` (sazba daně např. `21`)
+
+
 ## Dostupné queries
 
 ### Testovací příklady
