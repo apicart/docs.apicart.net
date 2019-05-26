@@ -6,7 +6,7 @@ Registrace je pro účel ukázky ukázána na **testovacím prostředí**. Zde *
 :::
 
 ## Registrace
-1. Pro využívání našich služeb se nejdříve musíte [zaregistrovat](https://admin.apicart.dev/cs-cz/security/registration).
+1. Pro využívání našich služeb se nejdříve musíte [zaregistrovat](https://store-admin.apicart.dev/cs-cz/security/registration).
 Po vyplnění formuláře vám bude odeslán potvrzovací e-mail.
 2. V registračním e-mailu klikněte na tlačítko `Aktivovat můj účet`. Budete přesměrováni na stránku pro zadání hesla. Zadejte heslo, potvrďte formulář a přihlaste se ke svému účtu. Tím máte registraci hotovou!
 
@@ -22,7 +22,7 @@ Po vyplnění formuláře vám bude odeslán potvrzovací e-mail.
 2. Po uložení byste měli být na stránce vytvořené položky. Na konci bílého bloku je položka `Zdroj` a vygenerovaná url. Tuto url si někam uložte, budete ji potřebovat v následujících krocích.
 
 ## Instalace
-1. V [administraci](https://admin.apicart.dev/cs-cz/) najdete v pravém horním rohu kolečko s vaší profilovou fotkou.
+1. V [administraci](https://store-admin.apicart.dev/cs-cz/) najdete v pravém horním rohu kolečko s vaší profilovou fotkou.
 Po kliknutí se vám zobrazí menu. V tomto menu zvolte **instalace**.
 2. Na stránce instalace najdete 2 klíče pro přístup do API.
 3. Nahraďte `<veřejný API klíč>` v kódu níže vaším veřejným API klíčem
@@ -118,11 +118,11 @@ Vysvětlivky k nastavení jsou sepsány v samostatné [sekci](/cs-cz/komponenty/
 ```
 
 6. HOTOVO! Pokud teď přenačtete stránku, zobrazí se dropdown a tlačítko koupit. Při kliknutí na tlačítko `Do košíku`
-se okamžitě změní cena produktu v košíku a uvidíte i záznam ve vašem [adminu](https://admin.apicart.net).
+se okamžitě změní cena produktu v košíku a uvidíte i záznam ve vašem [adminu](https://store-admin.apicart.net).
 
 ## Přechod na placenou verzi
 
-1. Pokud chcete aktivovat produkční prostředí, musíte se zaregistrovat na [https://admin.apicart.net](https://admin.apicart.net), nebo
+1. Pokud chcete aktivovat produkční prostředí, musíte se zaregistrovat na [https://store-admin.apicart.net](https://store-admin.apicart.net), nebo
 můžete v administraci v levém panelu kliknout na tlačítko `Produční prostředí` (produkční prostředí se pak vytvoří automaticky).
 2. Přihlaste se a zadejte fakturační údaje.
 3. Vyměňte testovací API klíče za produkční a máte hotovo!
