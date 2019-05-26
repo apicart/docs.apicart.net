@@ -6,7 +6,7 @@ The whole example is using the **testing environment**. There is **no billing in
 :::
 
 ## Registration
-1. First of all, you must [sign-up](https://admin.apicart.dev/en-us/security/registration) in order to use our services. After submitting the form you will receive a confirmation e-mail.
+1. First of all, you must [sign-up](https://store-admin.apicart.dev/en-us/security/registration) in order to use our services. After submitting the form you will receive a confirmation e-mail.
 2. In the registration email, click on the `Activate my account` button. You will be redirected on the registration page. Setup your password and sign in to your account.
 
 ## Configuration
@@ -22,7 +22,7 @@ The whole example is using the **testing environment**. There is **no billing in
 because you will use in the following steps.
 
 ## Installation
-1. In the [administration](https://admin.apicart.dev/), in the top right corner, there is a circle with your profile photo. Click on it and you will see a dropdown menu. In this menu, choose **installation**.
+1. In the [administration](https://store-admin.apicart.dev/), in the top right corner, there is a circle with your profile photo. Click on it and you will see a dropdown menu. In this menu, choose **installation**.
 2. On the installation page, there are 2 API access keys.
 3. Replace the `<public api key>` in the code below by your public API key
 `<head></head>` (or immediately behind the script that loads the components from the CDN, see below). The result will looks like this (the three dots is the previous content):
@@ -116,11 +116,11 @@ The detailed configuration is described in a separated [section](/components/web
 ```
 
 6. DONE! If you reload the page now, the dropdown and the buy button will appear. If you click on the `Add To Cart` button
-the product price in the cart dropdown will immediately change and you will see a new data in graphs in your [administration](https://admin.apicart.dev).
+the product price in the cart dropdown will immediately change and you will see a new data in graphs in your [administration](https://store-admin.apicart.dev).
 
 ## Switching To The Production Environment
 
-1. If you want activate the production environment, you need to register on the [https://admin.apicart.net](https://admin.apicart.net/en-us/security/registration)
+1. If you want activate the production environment, you need to register on the [https://store-admin.apicart.net](https://store-admin.apicart.net/en-us/security/registration)
 or click on the `Live environment` button in the administration (it will create the production environment automatically)
 2. Sign in to your profile on production environment and fill in the billing info
 3. Replace the testing API keys for the production API keys in the configuration(`apicartConfigure`) on your page and its DONE!
