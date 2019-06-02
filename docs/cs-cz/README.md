@@ -6,7 +6,7 @@ Registrace je pro účel ukázky ukázána na **testovacím prostředí**. Zde *
 :::
 
 ## Registrace
-1. Pro využívání našich služeb se nejdříve musíte [zaregistrovat](https://store-admin.apicart.dev/cs-cz/security/registration).
+1. Pro využívání našich služeb se nejdříve musíte [zaregistrovat](https://store-admin.apicart.dev/registrace).
 Po vyplnění formuláře vám bude odeslán potvrzovací e-mail.
 2. V registračním e-mailu klikněte na tlačítko `Aktivovat můj účet`. Budete přesměrováni na stránku pro zadání hesla. Zadejte heslo, potvrďte formulář a přihlaste se ke svému účtu. Tím máte registraci hotovou!
 
@@ -122,7 +122,7 @@ se okamžitě změní cena produktu v košíku a uvidíte i záznam ve vašem [a
 
 ## Přechod na placenou verzi
 
-1. Pokud chcete aktivovat produkční prostředí, musíte se zaregistrovat na [https://store-admin.apicart.net](https://store-admin.apicart.net), nebo
+1. Pokud chcete aktivovat produkční prostředí, musíte se zaregistrovat na [https://store-admin.apicart.net](https://store-admin.apicart.dev/registrace), nebo
 můžete v administraci v levém panelu kliknout na tlačítko `Produční prostředí` (produkční prostředí se pak vytvoří automaticky).
 2. Přihlaste se a zadejte fakturační údaje.
 3. Vyměňte testovací API klíče za produkční a máte hotovo!
