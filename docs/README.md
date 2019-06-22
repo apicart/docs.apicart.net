@@ -6,7 +6,7 @@ The whole example is using the **testing environment**. There is **no billing in
 :::
 
 ## Registration
-1. First of all, you must [sign-up](https://store-admin.apicart.dev/registration) in order to use our services. After submitting the form you will receive a confirmation e-mail.
+1. First of all, you must [sign-up](https://accounts.apicart.dev/sign-up) in order to use our services. After submitting the form you will receive a confirmation e-mail.
 2. In the registration email, click on the `Activate my account` button. You will be redirected on the registration page. Setup your password and sign in to your account.
 
 ## Configuration
@@ -120,7 +120,7 @@ the product price in the cart dropdown will immediately change and you will see 
 
 ## Switching To The Production Environment
 
-1. If you want activate the production environment, you need to register on the [https://store-admin.apicart.net](https://store-admin.apicart.net/registration)
+1. If you want activate the production environment, you need to register on the [https://accounts.apicart.net](https://accounts.apicart.net/sign-up)
 or click on the `Live environment` button in the administration (it will create the production environment automatically)
 2. Sign in to your profile on production environment and fill in the billing info
 3. Replace the testing API keys for the production API keys in the configuration(`apicartConfigure`) on your page and its DONE!
